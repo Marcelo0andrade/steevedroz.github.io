@@ -27,6 +27,9 @@ nav a .active {
     background-color: #4CAF50;
     color: white;
 }
+.now{
+  background-color:grey
+}
 dd{
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.3em
