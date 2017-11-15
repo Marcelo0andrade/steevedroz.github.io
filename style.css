@@ -4,16 +4,20 @@ body{
 nav {
     background-color: #000;
     overflow: hidden;
+    height: 100px;
+}
+.Acceuil{
+    padding:  20px 20px;
 }
 nav a {
     float: left;
-    display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding:  40px 20px;
     text-decoration: none;
-    font-size: 17px;
     transition: 1s;
+    font-size: 1.5em
+
 }
 nav a:hover {
     background-color: #ddd;
@@ -22,6 +26,10 @@ nav a:hover {
 nav a .active {
     background-color: #4CAF50;
     color: white;
+}
+dd{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.3em
 }
 footer{
   background-color:lightgrey;
