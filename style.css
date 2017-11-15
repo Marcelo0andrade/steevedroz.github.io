@@ -1,29 +1,30 @@
-* {
-  box-sizing:border-box;
+body{
+  background-color:#FFF ;
 }
-
-body {
-  background:#ddf;
-  color:#000;
-  font-family:'Actor';
+nav {
+    background-color: #000;
+    overflow: hidden;
 }
-
-img {
-  float:right;
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 1s;
 }
-
-.language {
-  background:#ccc;
-  display:inline-block;
-  font-family:'Cousine';
-  font-size:60%;
-  padding:5px;
+nav a:hover {
+    background-color: #ddd;
+    color: black;
 }
-
-.language:before {
-  content:'[';
+nav a .active {
+    background-color: #4CAF50;
+    color: white;
 }
-
-.language:after {
-  content:']';
+footer{
+  background-color:lightgrey;
+  overflow: hidden;
+  padding:10px;
 }
