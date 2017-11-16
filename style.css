@@ -1,8 +1,8 @@
 body{
-  background-color:#FFF ;
+  background-color:#998200 ;
 }
 nav {
-    background-color: #000;
+    background-color: grey;
     overflow: hidden;
     height: 100px;
 }
@@ -37,7 +37,7 @@ a:hover{
   text-decoration: underline;
 }
 .now{
-  background-color:grey
+  background-color:lightgrey
 }
 dd{
   font-family: 'Open Sans Condensed', sans-serif;
