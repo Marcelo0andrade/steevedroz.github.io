@@ -1,3 +1,4 @@
+ // TEST 1
 /*function check() {
   document.getElementById("#day").checked = true;
 }
@@ -12,7 +13,8 @@ if (day) {
     document.body.style.background = grey
 }
 */
-function DayOrNot()
+ // TEST 2
+/*function DayOrNot()
 {
    var night = document.getElementById('day')
 
@@ -23,3 +25,22 @@ function DayOrNot()
    };
 }
 window.onload = DayOrNot
+*/
+ // TEST 3
+
+//$('#dayyy').append('<h1>  </h1>')
+// TEST 4
+/* $('#dayyy').append($('<p>', {
+    id: 'nouveau',
+    "class": 'element',
+    text: 'Je suis un nouvel élément',
+    css: {
+      border: '1px solid black',
+      fontFamily: 'serif' // camelCase au lieu de tirets
+    },
+    click: function(){alert('Vous avez cliqué !')}
+  })) */
+  // TEST 5
+  $('#day').click(function() {
+    alert('hi5')
+    })
