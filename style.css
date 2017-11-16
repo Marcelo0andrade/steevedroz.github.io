@@ -56,7 +56,7 @@ input#day.slider-v3{
   width: 5em; height: 2em;
   cursor: pointer;
   border-radius: 1.5em;
-  background: #d9d9d9;
+  background: white;
   float: right;
 }
 .slider-v3 + label::after {
@@ -67,9 +67,9 @@ input#day.slider-v3{
   transition:
     left 250ms 50ms ease-in,
     box-shadow 300ms ease-in;
-  background: #4c6;
+  background: black;
   box-shadow:
-    0 0 0 1.5em #f2f2f2 inset;
+    0 0 0 1.5em yellow inset;
 }
 .slider-v3:checked + label::after {
 	bottom:0.5em; left: 3em;height: 1em;
