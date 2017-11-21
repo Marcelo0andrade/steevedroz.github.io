@@ -1,4 +1,4 @@
- // TEST 1
+﻿ // TEST 1
 /*function check() {
   document.getElementById("#day").checked = true;
 }
@@ -42,5 +42,14 @@ window.onload = DayOrNot
   })) */
   // TEST 5
   $('#day').click(function() {
-    alert('hi5')
+    if ($('#day').is(':checked')) {
+                      $("body").css({'background-color': 'yellow'});
+					  $("nav").css({'background-color': 'blue'});
+					  $("footer").css({'background-color': 'blue'});
+          }
+          else {
+            $("body").css({'background-color': 'white'});
+			$("nav").css({'background-color': 'grey'});
+			$("footer").css({'background-color': 'grey'});
+          }
     })
